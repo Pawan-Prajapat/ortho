@@ -40,6 +40,16 @@ footer .container #conctIcon .conctIcon a{
     text-align: center;
 }
 
+#products .container .card  .product_inner_imgbox{
+    transition: 1s;
+}
+
+#products .container .card  .product_inner_imgbox:hover{
+    background-color: rgba(1, 31, 43, 0.103);
+    transform: scale(1.1);
+    z-index: 20;
+}
+
 /* for navLogo */
 nav .container{
     display: flex;
@@ -52,3 +62,8 @@ nav .container .navLogo{
 
 
 /* product page css end  */
+
+
+
+/* about page css  */
+
